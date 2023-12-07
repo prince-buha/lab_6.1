@@ -1,3 +1,10 @@
+/* 
+Enter a number (n): 5
+Numbers from 5 to 1 are:
+5
+
+    */
+
 #include <stdio.h>
 
 int main() {
@@ -8,12 +15,10 @@ int main() {
 
     printf("Numbers from %d to 1 are: \n", n);
 
-    // Using a while loop to print numbers from n to 1
+   
     while (n >= 1) {
         printf("%d ", n);
-        n--; // Decrementing n in each iteration
-    }
+        n--; 
 
-    return 0;
-}
+    }
 
